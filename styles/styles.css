@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #02050c;
+    color: #F9F9F9;
+}
+
+/* First content */
+.presentation__content {
+    /* background-image: url(/images/Background.png);
+    background-repeat: no-repeat; */
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 55% 0% 10%;
+    align-items: center;
+}
+
+.presentation__content__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 34px;
+    text-align: center;
+}
+
+.presentation__content__links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+
+
+}
+
+.presentation__content__links__links {
+    text-decoration: none;
+    width: 32rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Inter'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    background: #167BF7;
+
+}
+
+.presentation__content__links__links:hover {
+    background: #ffffff;
+    color: #167BF7;
+}
+
+.presentation__content__alert__price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+/* end of first content */
+/* Second content   */
+.presentation__plataforms {
+    padding: 20%;
+
+}
+
+.plataforms__content {
+    display: flex;
+    align-items: center;
+    gap: 4.92rem;
+}
+
+.presentation__image {
+    width: 50%;
+}
+
+.presentation__plataforms__content__text {
+    width: 50%;
+}
+
+.plataforms__content__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.plataforms__content__paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+/* End of second content */
+/* Third content */
+.presentation__combo {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.presentation__combo__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.combo__paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.combo__photo {
+    width: 50%;
+}
+
+.presentation__combo__link {
+    text-decoration: none;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Inter'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    background: #167BF7;
+}
+
+.presentation__combo__link:hover {
+    background: #ffffff;
+    color: #167BF7;
+}
+
+/* End third content */
+/* Fourth content */
+.presentation__downloads {
+    padding: 10%;
+}
+
+.presentation__downloads__content {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.presentation__downloads__photo {
+    width: 50%;
+}
+
+.presentation__downloads__content__text {
+    width: 50%;
+}
+
+.presentation__downloads__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.presentation__downloads__paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* End fourth content */
+
+/* Fifth content */
+
+.presentation__devices {
+    padding: 10%;
+    width: auto;
+    text-align: center;
+}
+
+.presentation__devices__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.presentation__devices__images__device {
+    display: flex;
+    justify-content: center;
+}
+
+.presentation__devices__images__photos {
+    width: 33%;
+    height: 192px;
+}
+
+/* End fifth content */
+
+/* Footer content */
+.footer__ {
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer__links {
+    padding: 1% 0% 0% 0%;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer__links__links {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.footer__links__links:hover {
+    color: #167BF7;
+}
+
+.footer__rights {
+    padding: 0% 0% 1% 0%;
+    text-align: center;
+}
+
+/* End footer content */
