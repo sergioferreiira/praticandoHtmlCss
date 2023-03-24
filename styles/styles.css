@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
 
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: ;
+    --tertiary-color: #167BF7;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +18,7 @@ body {
     height: 100%;
     box-sizing: border-box;
     background-color: #02050c;
-    color: #F9F9F9;
+    color: var(--primary-color);
 }
 
 /* First content */
@@ -48,18 +55,18 @@ body {
     width: 32rem;
     padding: 1rem;
     border-radius: 8px;
-    color: white;
+    color: var(--primary-color);
     font-family: 'Inter'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.3rem;
-    background: #167BF7;
+    background: var(--tertiary-color);
 
 }
 
 .presentation__content__links__links:hover {
-    background: #ffffff;
-    color: #167BF7;
+    background: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 .presentation__content__alert__price {
@@ -136,17 +143,17 @@ body {
     width: 10rem;
     padding: 1rem;
     border-radius: 8px;
-    color: white;
+    color: var(--primary-color);
     font-family: 'Inter'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.3rem;
-    background: #167BF7;
+    background: var(--tertiary-color);
 }
 
 .presentation__combo__link:hover {
-    background: #ffffff;
-    color: #167BF7;
+    background: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 /* End third content */
@@ -227,11 +234,11 @@ body {
 
 .footer__links__links {
     text-decoration: none;
-    color: #F9F9F9;
+    color: var(--primary-color);
 }
 
 .footer__links__links:hover {
-    color: #167BF7;
+    color: var(--tertiary-color);
 }
 
 .footer__rights {
